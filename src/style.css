@@ -1,0 +1,83 @@
+body {
+  background-color: darkblue;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.face {
+  position: absolute;
+  font-style: times;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  align-content: center;
+  text-emphasis: wrap;
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  margin: 0px;
+}
+
+.eyeline {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 100px;
+}
+
+.eyeopen {
+  width: 20px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: black;
+  margin: 15px;
+}
+.eyeclosed {
+  margin-top: 80px;
+  width: 40px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+}
+
+.frown {
+  margin-left: 90px;
+  margin-top: 20px;
+  height: 60px;
+  width: 100px;
+  background-color: yellow;
+  border: 10px solid black;
+  border-bottom: 0px;
+  border-top-left-radius: 70px;
+  border-top-right-radius: 70px;
+}
+.smile {
+  margin-left: 90px;
+  margin-top: 20px;
+  height: 60px;
+  width: 100px;
+  background-color: yellow;
+  border: 10px solid black;
+  border-top: 0px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+
+.pinkbox {
+  font-style: times;
+  font-size: 20px;
+  text-align: center;
+  text-emphasis: wrap;
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+  margin: 30px;
+}
